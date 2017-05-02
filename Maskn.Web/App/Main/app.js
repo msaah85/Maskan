@@ -50,6 +50,10 @@
                     url: '/about',
                     templateUrl: '/App/Main/views/about/about.cshtml',
                     menu: 'About' //Matches to name of 'About' menu in MasknNavigationProvider
+                }).state('regions', {
+                    url: '/regions',
+                    templateUrl: '/App/Main/views/basic/regions.cshtml',
+                    menu: 'Regions' //Matches to name of 'About' menu in MasknNavigationProvider
                 });
         }
     ]);

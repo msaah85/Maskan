@@ -66,7 +66,7 @@
     @Html.IncludeScript("~/Abp/Framework/scripts/libs/abp.blockUI.js")
     @Html.IncludeScript("~/Abp/Framework/scripts/libs/abp.spin.js")
     @Html.IncludeScript("~/Abp/Framework/scripts/libs/abp.sweet-alert.js")
-
+        
     <!-- Dynamic scripts of ABP system (They are created on runtime and can not be bundled) -->
     <script src="~/api/AbpServiceProxies/GetAll?v=@(Clock.Now.Ticks)"></script>
     <script src="~/AbpScripts/GetScripts?v=@(Clock.Now.Ticks)" type="text/javascript"></script>
